@@ -1,0 +1,27 @@
+<root>
+    <node behavior="Idle" response="">
+        <node behavior="" response="Use Computer"/>
+        <node behavior="" response="Patrol"/>
+    </node>
+    <node behavior="Incoming Projectile">
+        <node behavior="" response="Evade"/>
+    </node>
+    <node behavior="Combat" response="">
+        <node behavior="Melee" response="">
+            <node behavior="" response="Flee"/>
+            <node behavior="" response="Attack"/>
+        </node>
+        <node behavior="Ranged" response="">
+            <node behavior="Fire" response="">
+                <node behavior="" response="Fire Weapon 1"/>
+                <node behavior="" response="Fire Weapon 2"/>
+                <node behavior="" response="Fire Weapon 3"/>
+            </node>
+            <node behavior="Ice" response="">
+                <node behavior="" response="Ice Weapon 1"/>
+                <node behavior="" response="Ice Weapon 2"/>
+                <node behavior="" response="Ice Weapon 3"/>
+            </node>
+        </node>
+    </node>
+</root>
